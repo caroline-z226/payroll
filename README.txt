@@ -1,7 +1,7 @@
 
 
-. . venv/bin/activate
+. .venv/bin/activate
 deactivate
 
-
-flask --app [name] run
+(initialization) flask --app payroll init-db
+flask --app payroll run
